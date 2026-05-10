@@ -1,0 +1,3 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+@layer base{body{@apply bg-cream text-ink font-sans antialiased;}h1,h2,h3{@apply font-display;}}
+@layer components{.card{@apply bg-white/70 backdrop-blur-sm border border-stone/50 rounded-xl shadow-sm;}.btn-primary{@apply px-5 py-2.5 rounded-lg font-medium text-sm bg-plum text-white hover:bg-plum/90 transition-all inline-flex items-center gap-2;}.input{@apply w-full px-4 py-2.5 rounded-lg border border-stone/50 bg-white/80 text-ink placeholder:text-muted/60 focus:outline-none focus:border-plum/50 transition-all;}.label{@apply block text-sm font-medium text-ink/80 mb-1.5;}}
